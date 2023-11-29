@@ -1,9 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
-        <AssemblyName>LethalCompanyTemplate</AssemblyName>
-        <Description>A template for Lethal Company</Description>
+        <TargetFramework>net48</TargetFramework>
+        <Description>UI-related functionality for LethalAPI</Description>
         <Version>1.0.0</Version>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
