@@ -78,6 +78,8 @@
     <None Remove="Plugin.ruleset" />
     <None Remove="README.md" />
     <None Remove="stylecop.json" />
+    <None Remove="NuGet.Config" />
+    <Content Include="NuGet.Config" Link="Resources/NuGet.Config" />
     <Content Include="../.editorconfig" Link="Resources/.editorconfig" />
     <Content Include="../.gitignore" Link="Resources/.gitignore" />
     <Content Include="../LICENSE.txt" Link="Resources/LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
